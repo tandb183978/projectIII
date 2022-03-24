@@ -1,0 +1,240 @@
+ /*Tooltip bottom*/
+[title_handmade_bottom] {
+    /* base style for the element */
+    position: relative;
+    cursor: pointer;
+}
+
+[title_handmade_bottom]::after {
+
+    /* Takes the content from tooltip-title attribute */
+    content: attr(title_handmade_bottom);
+    /* should be hidden initially */
+    opacity: 0;
+
+    /* basic styling tooltip */
+    background: #1a202c;
+    border-radius: 4px;
+    color: #fff;
+    margin-bottom: 12px;
+    padding: 0.5em 1em;
+    white-space: nowrap;
+    z-index: 10;
+    font-size: 11px;
+
+    /* Positioning tooltip */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+
+    /* Basic effects on tooltip */
+    transition: all 0.2s ease-out 0.2s;
+    transform: translate(-50%, 10px);
+    transform-origin: top;
+}
+
+[title_handmade_bottom]:hover::after {
+    /* Making it visible on hover */
+    opacity: 1;
+}
+
+
+[title_handmade_bottom]:hover::after {
+    /* Effects on hover */
+    transform: translate(-50%, 0);
+}
+
+/* Tooltip top */
+[title_handmade_top] {
+    /* base style for the element */
+    position: relative;
+    cursor: pointer;
+}
+
+[title_handmade_top]::after {
+    /* Takes the content from tooltip-title attribute */
+    content: attr(title_handmade_top);
+    /* should be hidden initially */
+    opacity: 0;
+    /* basic styling tooltip */
+    background: #1a202c;
+    border-radius: 4px;
+    color: #fff;
+    margin-bottom: 12px;
+    padding: 0.5em 1em;
+    white-space: nowrap;
+    z-index: 10;
+    font-size: 11px;
+
+    /* Positioning tooltip */
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+
+    /* Basic effects on tooltip */
+    transition: all 0.2s ease-out 0.2s;
+    transform: translate(-50%, 10px);
+    transform-origin: top;
+
+}
+
+[title_handmade_top]:hover::after {
+    /* Making it visible on hover */
+    opacity: 1;
+}
+
+[title_handmade_top]:hover::after {
+    /* Effects on hover */
+    transform: translate(-50%, 0);
+}
+
+/* Other */
+.butt_header{
+    float: left;
+    border: 0!important;
+}
+
+/* Style the sidebar */
+.w3-bar-item  {
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/*Style the active class, and buttons on mouse-over*/
+.activate, .w3-bar-item:hover {
+    background-color: #666!important;
+    color: white!important;
+}
+a.w3-bar-item {
+    border-bottom: 1px dashed;
+    text-decoration: none
+}
+a.w3-bar-item:hover {
+    cursor: help;
+    position: relative
+}
+a.w3-bar-item span {
+    display: none
+}
+
+.w_1{}
+.w_2{}
+.w_3{}
+.w_4{}
+.w_5{}
+.w_6{}
+
+a.w_1:hover span {
+    border-radius: 25px;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: #1a202c;
+    width: 72px;
+    position: fixed;
+    top: 135px;
+    right: 50px;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    color:white;
+}
+
+a.w_2:hover span {
+    border-radius: 25px;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: #1a202c;
+    width: 54px;
+    position: fixed;
+    top: 180px;
+    right: 50px;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    color:white;
+}
+
+a.w_3:hover span {
+    border-radius: 25px;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: #1a202c;
+    width: 60px;
+    position: fixed;
+    top: 225px;
+    right: 50px;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    color:white;
+}
+
+a.w_4:hover span {
+    border-radius: 25px;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: #1a202c;
+    width: 79px;
+    position: fixed;
+    top: 270px;
+    right: 50px;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    color:white;
+    text-align: center;
+}
+
+a.w_5:hover span {
+ border-radius: 25px;
+ padding: 5px 20px 5px 5px;
+ display: block;
+ z-index: 100;
+ background: #1a202c;
+ width: 63px;
+ position: fixed;
+ top: 315px;
+ right: 50px;
+ text-decoration: none;
+ font-family: "Roboto", serif;
+ color:white;
+}
+
+a.w_6:hover span {
+ border-radius: 25px;
+ padding: 5px 20px 5px 5px;
+ display: block;
+ z-index: 100;
+ background: #1a202c;
+ width: 67px;
+ position: fixed;
+ top: 360px;
+ right: 50px;
+ text-decoration: none;
+ font-family: "Roboto", serif;
+ color:white;
+}
+
+/* Style của file (attachment) */
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 0px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* Cursor trên cc*/
+#cc:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+

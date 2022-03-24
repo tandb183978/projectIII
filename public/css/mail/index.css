@@ -1,0 +1,25 @@
+/* Shorten content */
+table.dataTable.no-footer {
+    border-bottom: 1px solid #D7D4D3 !important;
+}
+
+.rowDataTable{
+    transition: box-shadow .3s;
+}
+.table tbody .rowDataTable:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    cursor: pointer;
+}
+
+/* Custom */
+.card-header button:hover{
+    border-radius: 50% !important;
+    background: #D7D4D3 !important;
+}
+
+table tbody button:hover{
+    border-radius: 50% !important;
+    background: #D7D4D3 !important;
+}
+
+

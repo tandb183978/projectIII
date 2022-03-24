@@ -1,0 +1,96 @@
+/* Style the sidebar */
+.w3-bar-item  {
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/*Style the active class, and buttons on mouse-over*/
+.activate, .w3-bar-item:hover {
+    background-color: #666;
+    color: white
+}
+.w1{
+}
+.w2{
+}
+.w3{
+
+}
+
+a.w3-bar-item {
+    border-bottom: 1px dashed;
+    text-decoration: none
+}
+a.w3-bar-item:hover {
+    cursor: help;
+    position: relative
+}
+a.w3-bar-item span {
+    display: none
+}
+a.w1:hover span {
+    border-radius: 25px;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: #1a202c;
+    width: 72px;
+    position: fixed;
+    top: 150px;
+    right: 50px;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    color:white;
+}
+
+a.w2:hover span {
+    border-radius: 25px;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: #1a202c;
+    width: 54px;
+    position: fixed;
+    top: 190px;
+    right: 50px;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    color:white;
+}
+
+a.w3:hover span {
+    border-radius: 25px;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: #1a202c;
+    width: 60px;
+    position: fixed;
+    top: 220px;
+    right: 50px;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    color:white;
+}
+
+/* Style của file (attachment) */
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 0px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* Cursor trên cc*/
+#cc:hover{
+    cursor: pointer;
+}
+
+
+
+
